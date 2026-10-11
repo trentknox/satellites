@@ -30,4 +30,4 @@ Each item lists the source's own publication date. All were published between 20
 - [Your Agent Remembers the Stack, Not You](https://dev.to/xin_jiang_0586987bb7e572c/your-agent-remembers-the-stack-not-you-4jgj) — published 2026-10-10
 - [OnTrack: Real-Time Monitoring and Intervention in LLM Agent Trajectories](https://arxiv.org/abs/2610.12375) — submitted 2026-10-08
 - [Accurate but Not Humble: Evaluating Epistemic Humility in LLM Agents under Knowledge Conflict](https://arxiv.org/abs/2610.12360) — submitted 2026-10-08
-- [Build your own decision model](https://nishtahir.com/build-your-own-decision-model/) — published 2026-10-10
+- [Build your own decision model](https://nishtahir.com/build-your-own-decision-model/) — by Nish Tahir, published 2026-10-10, found via Hacker News
