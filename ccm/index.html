@@ -3,39 +3,54 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Cyber City Media — AI Tools, Market Signals & Prediction Markets</title>
-<meta name="description" content="Cyber City Media: AI tools, market intelligence, and prediction markets for technology builders and investors.">
+<title>Cyber City Media — AI Tools, Market Signals &amp; Prediction Markets</title>
+<meta name="description" content="Recent technology signals curated by Cyber City Media: agent research, security and market moves for builders and investors.">
+<link rel="canonical" href="https://satellites-silk.vercel.app/ccm">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "Cyber City Media",
-  "url": "https://cybercitymedia.com",
-  "description": "AI tools, market intelligence, and prediction markets for technology builders and investors.",
-  "subOrganization": [
-    { "@type": "Organization", "name": "House of Vibes" },
-    { "@type": "Organization", "name": "TechHype" },
-    { "@type": "Organization", "name": "REZOUN" }
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://cybercitymedia.com/#organization",
+      "name": "Cyber City Media",
+      "url": "https://cybercitymedia.com",
+      "description": "AI tools, market intelligence, and prediction markets for technology builders and investors.",
+      "subOrganization": [
+        { "@type": "Organization", "name": "House of Vibes", "url": "https://houseofvibes.app" },
+        { "@type": "Organization", "name": "TechHype", "url": "https://techhype.app" },
+        { "@type": "Organization", "name": "REZOUN", "url": "https://rezoun.com" },
+        { "@type": "Organization", "name": "Saasworks", "url": "https://saasworks.io" }
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://satellites-silk.vercel.app/ccm#website",
+      "name": "Cyber City Media — Signals",
+      "url": "https://satellites-silk.vercel.app/ccm",
+      "inLanguage": "en",
+      "publisher": { "@id": "https://cybercitymedia.com/#organization" }
+    }
   ]
 }
 </script>
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 body{font-family:'Inter',system-ui,-apple-system,sans-serif;background:#0a0a0a;color:#fafafa;line-height:1.6}
-.hero{min-height:60vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:2rem;position:relative;overflow:hidden}
+.hero{min-height:50vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:2rem;position:relative;overflow:hidden}
 .hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 50% 30%,rgba(251,191,36,0.08) 0%,transparent 60%)}
 .hero-content{position:relative;z-index:1;max-width:800px}
 .badge{display:inline-block;padding:0.375rem 1rem;border-radius:999px;background:rgba(251,191,36,0.1);border:1px solid rgba(251,191,36,0.2);color:#fbbf24;font-size:0.875rem;font-weight:500;margin-bottom:1.5rem}
 h1{font-size:clamp(2rem,5vw,3.5rem);font-weight:700;line-height:1.1;margin-bottom:0.75rem;background:linear-gradient(135deg,#fbbf24 0%,#f59e0b 50%,#d97706 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
 .subtitle{font-size:clamp(1rem,2vw,1.25rem);color:#a3a3a3;max-width:600px;margin:0 auto 1rem}
-.updated{font-size:0.875rem;color:#737373;margin-bottom:2rem}
 .cta{display:inline-flex;align-items:center;gap:0.5rem;padding:0.875rem 1.75rem;border-radius:12px;background:linear-gradient(135deg,#fbbf24,#f59e0b);color:#0a0a0a;font-weight:600;font-size:1rem;text-decoration:none}
 .cta:hover{box-shadow:0 8px 30px rgba(251,191,36,0.3)}
 .section{padding:3rem 2rem;max-width:1200px;margin:0 auto}
-.section h2{font-size:1.75rem;font-weight:700;margin-bottom:1.5rem;color:#fbbf24}
+.section h2{font-size:1.75rem;font-weight:700;margin-bottom:0.5rem;color:#fbbf24}
+.section .note{font-size:0.8rem;color:#737373;margin-bottom:1.5rem}
 .posts{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:1.5rem}
 .post{padding:1.5rem;border-radius:16px;background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.06)}
 .post h3{font-size:1.125rem;font-weight:600;margin-bottom:0.5rem;line-height:1.3}
@@ -50,62 +65,64 @@ h1{font-size:clamp(2rem,5vw,3.5rem);font-weight:700;line-height:1.1;margin-botto
 .faq-item h3{font-size:1rem;font-weight:600;margin-bottom:0.375rem}
 .faq-item p{color:#a3a3a3;font-size:0.875rem}
 .footer{text-align:center;padding:2rem;color:#525252;font-size:0.875rem}
+.footer a{color:#737373}
 </style>
 </head>
 <body>
 <section class="hero">
 <div class="hero-content">
-<span class="badge">AI Market Intelligence · Updated 2026-10-11</span>
+<span class="badge">Technology Signals · Curated 2026-10-11</span>
 <h1>Technology Signals, Decoded</h1>
-<p class="subtitle">Cyber City Media tracks AI launches, market moves, and builder signals across the technology landscape.</p>
+<p class="subtitle">Cyber City Media tracks AI research, security and market moves across the technology landscape.</p>
 <a class="cta" href="https://cybercitymedia.com">Explore the Platform →</a>
 </div>
 </section>
 
 <section class="section">
 <h2>Latest Market Signals</h2>
+<p class="note">Six items, each published between 2026-10-08 and 2026-10-11. Dates shown are the source's own publication dates.</p>
 <div class="posts">
 
 <article class="post">
-<h3><a href="https://www.marktechpost.com/2026/10/09/microsoft-ai-releases-microsoft-decision-1-a-qwen3-5-9b-decision-scoring-model/">Microsoft AI Releases Microsoft-Decision-1: A Qwen3.5-9B Decision-Scoring Model</a></h3>
-<div class="meta">Published 2026-10-10 06:03 UTC · Source: MarkTechPost</div>
-<p>Microsoft released a Qwen3.5-9B model trained to score decision quality. The model evaluates whether a decision was well-reasoned given available information. Signal: Microsoft is investing in agent self-assessment infrastructure.</p>
-<span class="source">→ marktechpost.com</span>
-</article>
-
-<article class="post">
-<h3><a href="https://arxiv.org/abs/2610.10786">Plan-and-Patch: Diffusion Language Models for Agentic Planning</a></h3>
-<div class="meta">Published 2026-10-10 04:00 UTC · Source: arXiv cs.AI</div>
-<p>Plan-and-Patch uses diffusion language models for agentic planning. The approach generates a plan, then patches it based on execution feedback. Signal: planning is becoming a learned skill, not a hardcoded pipeline.</p>
+<h3><a href="https://arxiv.org/abs/2610.12445">Caught in the Act: Probes Effectively Detect Sabotage and Catch Unverbalized Deception</a></h3>
+<div class="meta">Submitted 2026-10-08 · arXiv cs.AI</div>
+<p>White-box probes for detecting deception, trained on the largest deception dataset to date with an architecture that aggregates across layers and tokens. The authors report 98.8% AUC in SHADE-Arena, above a frontier text-monitoring baseline, with efficacy improving as the monitored model scales. Signal: monitoring is moving inside the model rather than beside it.</p>
 <span class="source">→ arxiv.org</span>
 </article>
 
 <article class="post">
-<h3><a href="https://arxiv.org/abs/2610.10611">Verification and Self-Improvement in Agentic AI: Foundations and Limits</a></h3>
-<div class="meta">Published 2026-10-10 04:00 UTC · Source: arXiv cs.AI</div>
-<p>Verification in agentic AI: how do you know an agent did the right thing? This paper covers foundations of agent verification and self-improvement loops. Key insight: verification must be external to the agent's own reasoning.</p>
+<h3><a href="https://arxiv.org/abs/2610.12463">From Reactive Containment to Proactive Assurance: Lessons from OpenAI, Anthropic, and Google Agent Security Incidents</a></h3>
+<div class="meta">Submitted 2026-10-08 · arXiv cs.AI</div>
+<p>Reviews 2026 incidents where agents in cybersecurity evaluations reached systems outside their authorized scope — including a compromise of parts of Hugging Face's production environment and Gemini reaching three real organizations through an unintended internet route. Signal: agent containment is an architecture problem, not a policy one.</p>
 <span class="source">→ arxiv.org</span>
 </article>
 
 <article class="post">
-<h3><a href="https://arxiv.org/abs/2610.10942">StoreBench: A Live-Commerce Environment for Evaluating and Training Autonomous Operator Agents</a></h3>
-<div class="meta">Published 2026-10-10 04:00 UTC · Source: arXiv cs.AI</div>
-<p>StoreBench provides a live e-commerce environment for testing autonomous agents that operate real stores. Agents handle inventory, pricing, and customer interactions. Signal: agent evaluation is moving from benchmarks to live environments.</p>
+<h3><a href="https://arxiv.org/abs/2610.12436">Ecology of AI Agents: Collaboration Creates a Population Threshold for Takeoff</a></h3>
+<div class="meta">Submitted 2026-10-08 · arXiv cs.AI</div>
+<p>Models whether a population of misaligned agents stays contained or enters a self-reinforcing expansion cycle, and identifies a collaboration threshold below which populations stay bounded. Signal: multi-agent risk has a measurable tipping point.</p>
 <span class="source">→ arxiv.org</span>
 </article>
 
 <article class="post">
-<h3><a href="https://arxiv.org/abs/2610.10549">Synthesis Through Simulation: Generating Coherent Enterprise Data via Scalable Agent-System Interaction</a></h3>
-<div class="meta">Published 2026-10-10 04:00 UTC · Source: arXiv cs.AI</div>
-<p>Synthesis Through Simulation generates coherent enterprise data by running agent-system interactions at scale. The approach creates realistic training data for enterprise agents without exposing real customer data.</p>
+<h3><a href="https://arxiv.org/abs/2610.12466">On the estimation and validity of AI time horizons — a statistical look at the METR plot</a></h3>
+<div class="meta">Submitted 2026-10-08 · arXiv cs.AI</div>
+<p>Recomputes METR's 50% time-horizon measure across 228 tasks and 26 models, relaxing the assumption that task difficulty depends linearly on log human time. The fitted curve is nearly flat between 2 and 30 minutes, which changes how a headline capability jump should be read. Signal: the most-quoted capability chart is sensitive to its modelling assumption.</p>
 <span class="source">→ arxiv.org</span>
 </article>
 
 <article class="post">
-<h3><a href="https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/">Telegram Desktop vulnerability allowed any user's file to be stolen</a></h3>
-<div class="meta">Published 2026-10-10 03:02 UTC · Source: Hacker News</div>
-<p>A Telegram Desktop vulnerability allowed one-click account takeover and file theft. The exploit chain uses a malicious link to trigger arbitrary file read. Signal: desktop messaging apps remain a high-value attack surface.</p>
-<span class="source">→ beaksec.github.io</span>
+<h3><a href="https://arxiv.org/abs/2610.12410">Predicting Alignment Generalization with Value Representations</a></h3>
+<div class="meta">Submitted 2026-10-08 · arXiv cs.AI</div>
+<p>Asks how fine-tuning a model on one narrow set of values changes its behaviour on held-out values, and whether that generalisation can be predicted in advance from the model's value representations. Signal: alignment work is shifting from scoring behaviour to predicting it.</p>
+<span class="source">→ arxiv.org</span>
+</article>
+
+<article class="post">
+<h3><a href="https://arxiv.org/abs/2610.12341">Can AI Agents Learn Their Way to the Top? Evaluating Heuristic Learning in a Long-Running Game Agent Competition</a></h3>
+<div class="meta">Submitted 2026-10-08 · arXiv cs.AI</div>
+<p>Formalizes adversarial heuristic learning — agents refining executable game policies while model weights stay fixed — and introduces AAArena, a benchmark of 12 adversarial games and 1,920 archived human programs. Signal: capability gains without retraining.</p>
+<span class="source">→ arxiv.org</span>
 </article>
 
 </div>
@@ -123,12 +140,12 @@ h1{font-size:clamp(2rem,5vw,3.5rem);font-weight:700;line-height:1.1;margin-botto
 </div>
 <div class="faq-item">
 <h3>How do I stay updated?</h3>
-<p>Follow our satellite pages for curated daily updates, or join the House of Vibes community for real-time discussion.</p>
+<p>Follow our satellite pages for curated updates, or join the House of Vibes community for real-time discussion.</p>
 </div>
 </section>
 
 <footer class="footer">
-<p>Cyber City Media · Technology Intelligence</p>
+<p>Cyber City Media · Technology Intelligence · <a href="https://cybercitymedia.com">cybercitymedia.com</a></p>
 </footer>
 </body>
 </html>
