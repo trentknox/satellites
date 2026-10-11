@@ -2,7 +2,7 @@
 
 Static satellite / SEO pages for Cyber City Media projects. One folder per project.
 
-These are standalone static HTML pages — no build step, no framework. They are designed to
+These are standalone static HTML pages with no framework. They are designed to
 be indexed by search engines and LLM crawlers, and to link back to the main project sites.
 
 ## Projects
@@ -40,3 +40,24 @@ Vercel project URL.
 1. Create `<project>/index.html` and `<project>/llms.txt`.
 2. Add a rewrite pair in `vercel.json`.
 3. Add a row to the table above and a link on the root hub.
+
+## Optional analytics source preparation
+
+`npm ci` installs the pinned `@vercel/analytics` 2.0.1 SDK and build tool. Node 22 or newer
+is required. `npm test` runs inert privacy and static-preservation checks; `npm run build`
+copies the existing public files into `dist/` and compiles one local vanilla adapter.
+Add new public files to `scripts/build.mjs` when adding a project.
+
+Collection is explicitly **OFF** in `src/public-analytics.mjs`. While OFF, the HTML output
+is byte-for-byte unchanged and no adapter or collector script is added to any page.
+The candidate Vercel build settings only select this static output; they do not enable
+Web Analytics or change a provider plan.
+
+Any future activation needs separate source/privacy and hosting review. The prepared
+guard admits only `https://satellites-silk.vercel.app` at `/`, `/hov`, and `/ccm`, with clean
+URLs/referrers, available storage, no saved `__va_attribution`, and no browser privacy
+signal or explicit opt-out. The dedicated preference key is
+`satellites_public_analytics_opt_out_v1` (`1` opts out, `0` or absent does not). No preference
+UI or writes are included; their future integration remains unperformed. Automatic
+tracking is disabled and custom events are rejected. No live ingestion, consent UI,
+collector revocation lifecycle, preview or production acceptance is claimed.
