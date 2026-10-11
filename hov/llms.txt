@@ -1,0 +1,30 @@
+# House of Vibes
+
+House of Vibes is a community for AI builders, founders, and creators shipping in public. We focus on high-signal conversations, daily hangouts, and real collaboration.
+
+## Key Pages
+
+- [Home](https://houseofvibes.app) — Main site
+- [Satellite Hub](https://houseofvibes.app/satellite) — Content hub
+- [Community](https://houseofvibes.app/community) — Discord community
+
+## What We Cover
+
+- AI agent development and best practices
+- AI startup launches and funding
+- AI tools and frameworks
+- Machine learning research
+- Natural language processing advances
+- AI security and safety
+- AI in business and enterprise
+- AI creativity and content creation
+- AI infrastructure and deployment
+- AI policy and regulation
+
+## Latest Content
+
+- [AI Agent Decision Logs: Record Evidence Without Storing Chain of Thought](https://dev.to/jackm-singularity/ai-agent-decision-logs-record-evidence-without-storing-chain-of-thought-3gp0)
+- [Connect Your Business APIs Once, Share Them with Every Agent Client via MCP](https://dev.to/rebornace/connect-your-business-apis-once-share-them-with-every-agent-client-via-mcp-n3h)
+- [Your Agent Remembers the Stack, Not You](https://dev.to/xin_jiang_0586987bb7e572c/your-agent-remembers-the-stack-not-you-4jgj)
+- [Microsoft AI Releases Microsoft-Decision-1: A Qwen3.5-9B Decision-Scoring Model](https://www.marktechpost.com/2026/10/09/microsoft-ai-releases-microsoft-decision-1-a-qwen3-5-9b-decision-scoring-model/)
+- [StoreBench: A Live-Commerce Environment for Evaluating and Training Autonomous Operator Agents](https://arxiv.org/abs/2610.10942)

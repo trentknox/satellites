@@ -1,0 +1,31 @@
+# Cyber City Media
+
+Cyber City Media is a technology media company covering AI tools, market intelligence, and prediction markets. We publish analysis, run communities, and build tools for technology builders.
+
+## Key Pages
+
+- [Home](https://cybercitymedia.com) — Main site
+- [House of Vibes](https://houseofvibes.app) — AI builder community
+- [TechHype](https://techhype.app) — Technology news and market signals
+- [REZOUN](https://rezoun.com) — Streaming and replay technology
+
+## What We Cover
+
+- AI agent development and best practices
+- AI startup launches and funding
+- AI tools and frameworks
+- Machine learning research
+- Natural language processing advances
+- AI security and safety
+- AI in business and enterprise
+- AI creativity and content creation
+- AI infrastructure and deployment
+- AI policy and regulation
+
+## Latest Content
+
+- [Microsoft AI Releases Microsoft-Decision-1: A Qwen3.5-9B Decision-Scoring Model](https://www.marktechpost.com/2026/10/09/microsoft-ai-releases-microsoft-decision-1-a-qwen3-5-9b-decision-scoring-model/)
+- [Plan-and-Patch: Diffusion Language Models for Agentic Planning](https://arxiv.org/abs/2610.10786)
+- [Verification and Self-Improvement in Agentic AI: Foundations and Limits](https://arxiv.org/abs/2610.10611)
+- [StoreBench: A Live-Commerce Environment for Evaluating and Training Autonomous Operator Agents](https://arxiv.org/abs/2610.10942)
+- [Synthesis Through Simulation: Generating Coherent Enterprise Data via Scalable Agent-System Interaction](https://arxiv.org/abs/2610.10549)
