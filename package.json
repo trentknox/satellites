@@ -1,0 +1,13 @@
+{
+  "name": "ccm-satellites",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --experimental-vm-modules --test tests/*.test.mjs"
+  },
+  "dependencies": { "@vercel/analytics": "2.0.1" },
+  "devDependencies": { "esbuild": "0.28.2" }
+}
