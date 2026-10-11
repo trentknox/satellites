@@ -5,8 +5,8 @@ House of Vibes is a community for AI builders, founders, and creators shipping i
 ## Key Pages
 
 - [Home](https://houseofvibes.app) — Main site
-- [Satellite Hub](https://houseofvibes.app/satellite) — Content hub
-- [Community](https://houseofvibes.app/community) — Discord community
+- [Events](https://houseofvibes.app/events) — Upcoming sessions and hangouts
+- [Join](https://houseofvibes.app/join) — Community signup
 
 ## What We Cover
 
@@ -23,8 +23,11 @@ House of Vibes is a community for AI builders, founders, and creators shipping i
 
 ## Latest Content
 
-- [AI Agent Decision Logs: Record Evidence Without Storing Chain of Thought](https://dev.to/jackm-singularity/ai-agent-decision-logs-record-evidence-without-storing-chain-of-thought-3gp0)
-- [Connect Your Business APIs Once, Share Them with Every Agent Client via MCP](https://dev.to/rebornace/connect-your-business-apis-once-share-them-with-every-agent-client-via-mcp-n3h)
-- [Your Agent Remembers the Stack, Not You](https://dev.to/xin_jiang_0586987bb7e572c/your-agent-remembers-the-stack-not-you-4jgj)
-- [Microsoft AI Releases Microsoft-Decision-1: A Qwen3.5-9B Decision-Scoring Model](https://www.marktechpost.com/2026/10/09/microsoft-ai-releases-microsoft-decision-1-a-qwen3-5-9b-decision-scoring-model/)
-- [StoreBench: A Live-Commerce Environment for Evaluating and Training Autonomous Operator Agents](https://arxiv.org/abs/2610.10942)
+Each item lists the source's own publication date. All were published between 2026-10-08 and 2026-10-11.
+
+- [AI Agent Decision Logs: Record Evidence Without Storing Chain of Thought](https://dev.to/jackm-singularity/ai-agent-decision-logs-record-evidence-without-storing-chain-of-thought-3gp0) — published 2026-10-10
+- [Connect Your Business APIs Once, Share Them with Every Agent Client via MCP](https://dev.to/rebornace/connect-your-business-apis-once-share-them-with-every-agent-client-via-mcp-n3h) — published 2026-10-10
+- [Your Agent Remembers the Stack, Not You](https://dev.to/xin_jiang_0586987bb7e572c/your-agent-remembers-the-stack-not-you-4jgj) — published 2026-10-10
+- [OnTrack: Real-Time Monitoring and Intervention in LLM Agent Trajectories](https://arxiv.org/abs/2610.12375) — submitted 2026-10-08
+- [Accurate but Not Humble: Evaluating Epistemic Humility in LLM Agents under Knowledge Conflict](https://arxiv.org/abs/2610.12360) — submitted 2026-10-08
+- [Build your own decision model](https://nishtahir.com/build-your-own-decision-model/) — by Nish Tahir, published 2026-10-10, found via Hacker News

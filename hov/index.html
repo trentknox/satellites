@@ -3,28 +3,43 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>House of Vibes — AI Builders, Founders & Creators | Latest</title>
-<meta name="description" content="Latest AI builder news curated for the House of Vibes community. AI agents, tools, and research for creators shipping in public.">
+<title>House of Vibes — AI Builders, Founders &amp; Creators | Latest</title>
+<meta name="description" content="Recent AI builder reading curated for the House of Vibes community. Agent tooling, research and practice notes for creators shipping in public.">
+<link rel="canonical" href="https://satellites-silk.vercel.app/hov">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "House of Vibes",
-  "url": "https://houseofvibes.app",
-  "description": "A community for AI builders, founders, and creators shipping in public.",
-  "parentOrganization": {
-    "@type": "Organization",
-    "name": "Cyber City Media"
-  }
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://houseofvibes.app/#organization",
+      "name": "House of Vibes",
+      "url": "https://houseofvibes.app",
+      "description": "A community for AI builders, founders, and creators shipping in public.",
+      "parentOrganization": {
+        "@type": "Organization",
+        "name": "Cyber City Media",
+        "url": "https://cybercitymedia.com"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://satellites-silk.vercel.app/hov#website",
+      "name": "House of Vibes — Latest",
+      "url": "https://satellites-silk.vercel.app/hov",
+      "inLanguage": "en",
+      "publisher": { "@id": "https://houseofvibes.app/#organization" }
+    }
+  ]
 }
 </script>
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 body{font-family:'Inter',system-ui,-apple-system,sans-serif;background:#0a0a0a;color:#fafafa;line-height:1.6}
-.hero{min-height:60vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:2rem;position:relative;overflow:hidden}
+.hero{min-height:50vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:2rem;position:relative;overflow:hidden}
 .hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 50% 30%,rgba(251,191,36,0.08) 0%,transparent 60%)}
 .hero-content{position:relative;z-index:1;max-width:800px}
 .badge{display:inline-block;padding:0.375rem 1rem;border-radius:999px;background:rgba(251,191,36,0.1);border:1px solid rgba(251,191,36,0.2);color:#fbbf24;font-size:0.875rem;font-weight:500;margin-bottom:1.5rem}
@@ -34,7 +49,8 @@ h1{font-size:clamp(2rem,5vw,3.5rem);font-weight:700;line-height:1.1;margin-botto
 .cta{display:inline-flex;align-items:center;gap:0.5rem;padding:0.875rem 1.75rem;border-radius:12px;background:linear-gradient(135deg,#fbbf24,#f59e0b);color:#0a0a0a;font-weight:600;font-size:1rem;text-decoration:none}
 .cta:hover{box-shadow:0 8px 30px rgba(251,191,36,0.3)}
 .section{padding:3rem 2rem;max-width:1200px;margin:0 auto}
-.section h2{font-size:1.75rem;font-weight:700;margin-bottom:1.5rem;color:#fbbf24}
+.section h2{font-size:1.75rem;font-weight:700;margin-bottom:0.5rem;color:#fbbf24}
+.section .note{font-size:0.8rem;color:#737373;margin-bottom:1.5rem}
 .posts{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:1.5rem}
 .post{padding:1.5rem;border-radius:16px;background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.06)}
 .post h3{font-size:1.125rem;font-weight:600;margin-bottom:0.5rem;line-height:1.3}
@@ -49,62 +65,64 @@ h1{font-size:clamp(2rem,5vw,3.5rem);font-weight:700;line-height:1.1;margin-botto
 .faq-item h3{font-size:1rem;font-weight:600;margin-bottom:0.375rem}
 .faq-item p{color:#a3a3a3;font-size:0.875rem}
 .footer{text-align:center;padding:2rem;color:#525252;font-size:0.875rem}
+.footer a{color:#737373}
 </style>
 </head>
 <body>
 <section class="hero">
 <div class="hero-content">
-<span class="badge">AI Builder News · Updated 2026-10-11</span>
+<span class="badge">AI Builder Reading · Curated 2026-10-11</span>
 <h1>What AI Builders Need to Know</h1>
-<p class="subtitle">Curated daily from the House of Vibes community. AI agents, tools, and research for creators shipping in public.</p>
+<p class="subtitle">Recent reading for the House of Vibes community. Agent tooling, research, and practice notes for creators shipping in public.</p>
 <a class="cta" href="https://houseofvibes.app">Join the Community →</a>
 </div>
 </section>
 
 <section class="section">
 <h2>Latest for Builders</h2>
+<p class="note">Six items, each published between 2026-10-08 and 2026-10-11. Dates shown are the source's own publication dates.</p>
 <div class="posts">
 
 <article class="post">
 <h3><a href="https://dev.to/jackm-singularity/ai-agent-decision-logs-record-evidence-without-storing-chain-of-thought-3gp0">AI Agent Decision Logs: Record Evidence Without Storing Chain of Thought</a></h3>
-<div class="meta">Published 2026-10-10 05:50 UTC · Source: DEV Community</div>
-<p>AI agents that record decision evidence without storing chain-of-thought solve a real privacy problem. The approach: log what the agent decided and why, not the raw reasoning trace. This keeps you compliant while still debugging agent behavior.</p>
+<div class="meta">Published 2026-10-10 · DEV Community</div>
+<p>Argues for logging what an agent decided and the evidence behind it, while keeping the raw reasoning trace out of the log — auditability without retaining the part you would rather not store.</p>
 <span class="source">→ dev.to</span>
 </article>
 
 <article class="post">
 <h3><a href="https://dev.to/rebornace/connect-your-business-apis-once-share-them-with-every-agent-client-via-mcp-n3h">Connect Your Business APIs Once, Share Them with Every Agent Client via MCP</a></h3>
-<div class="meta">Published 2026-10-10 04:31 UTC · Source: DEV Community</div>
-<p>Model Context Protocol (MCP) lets you connect business APIs once and share them across every agent client — Claude, Cursor, Copilot, and custom agents. Instead of writing a new integration per client, you write one MCP server. This is the fastest way to make your tools agent-ready.</p>
+<div class="meta">Published 2026-10-10 · DEV Community</div>
+<p>Instead of writing one integration per client, expose your business APIs once as an MCP server and let every agent client read from it. A walkthrough of that shape and why it beats per-client glue.</p>
 <span class="source">→ dev.to</span>
 </article>
 
 <article class="post">
 <h3><a href="https://dev.to/xin_jiang_0586987bb7e572c/your-agent-remembers-the-stack-not-you-4jgj">Your Agent Remembers the Stack, Not You</a></h3>
-<div class="meta">Published 2026-10-10 04:06 UTC · Source: DEV Community</div>
-<p>AI coding agents should remember your technology stack so you don't have to repeat it every session. The fix: a persistent stack profile that the agent loads at startup. This eliminates the "we use Postgres 16, Tailwind, and Vite" preamble from every conversation.</p>
+<div class="meta">Published 2026-10-10 · DEV Community</div>
+<p>Your stack notes travel between AI clients; the personal context does not, because a client's config only has fields for work. The author moves between clients and argues the fix is not a longer config file — it is keeping what is about you as a person bound to you rather than to the client.</p>
 <span class="source">→ dev.to</span>
 </article>
 
 <article class="post">
-<h3><a href="https://www.marktechpost.com/2026/10/09/microsoft-ai-releases-microsoft-decision-1-a-qwen3-5-9b-decision-scoring-model/">Microsoft AI Releases Microsoft-Decision-1: A Qwen3.5-9B Decision-Scoring Model</a></h3>
-<div class="meta">Published 2026-10-10 06:03 UTC · Source: MarkTechPost</div>
-<p>Microsoft released Microsoft-Decision-1, a Qwen3.5-9B model trained to score decision quality. The model evaluates whether a decision was well-reasoned given the available information. Useful for agents that need to self-assess before committing to a course of action.</p>
-<span class="source">→ marktechpost.com</span>
-</article>
-
-<article class="post">
-<h3><a href="https://arxiv.org/abs/2610.10942">StoreBench: A Live-Commerce Environment for Evaluating and Training Autonomous Operator Agents</a></h3>
-<div class="meta">Published 2026-10-10 04:00 UTC · Source: arXiv cs.AI</div>
-<p>StoreBench provides a live e-commerce environment for testing autonomous agents that operate real stores. Agents must handle inventory, pricing, and customer interactions. The benchmark measures success rate, revenue impact, and recovery from errors.</p>
+<h3><a href="https://arxiv.org/abs/2610.12375">OnTrack: Real-Time Monitoring and Intervention in LLM Agent Trajectories</a></h3>
+<div class="meta">Submitted 2026-10-08 · arXiv cs.AI</div>
+<p>A streaming monitor that compares an agent's steps as they happen instead of grading the log afterwards — catching an irreversible action before it costs tokens or damage, without paying a second model's latency on every step.</p>
 <span class="source">→ arxiv.org</span>
 </article>
 
 <article class="post">
-<h3><a href="https://arxiv.org/abs/2610.10611">Verification and Self-Improvement in Agentic AI: Foundations and Limits</a></h3>
-<div class="meta">Published 2026-10-10 04:00 UTC · Source: arXiv cs.AI</div>
-<p>Verification in agentic AI systems: how do you know an agent did the right thing? This paper covers the foundations of agent verification, self-improvement loops, and the fundamental limits of each approach. Key insight: verification must be external to the agent's own reasoning.</p>
+<h3><a href="https://arxiv.org/abs/2610.12360">Accurate but Not Humble: Evaluating Epistemic Humility in LLM Agents under Knowledge Conflict</a></h3>
+<div class="meta">Submitted 2026-10-08 · arXiv cs.AI</div>
+<p>What does an agent do when retrieved evidence contradicts what it already believed — revise, flag uncertainty, or push on with the wrong answer? Proposes measuring that across three trajectory behaviours: identify, solve, escalate.</p>
 <span class="source">→ arxiv.org</span>
+</article>
+
+<article class="post">
+<h3><a href="https://nishtahir.com/build-your-own-decision-model/">Build your own decision model</a></h3>
+<div class="meta">By Nish Tahir · published 2026-10-10 · found via Hacker News</div>
+<p>A hands-on walkthrough by Nish Tahir of building a small decision model yourself, aimed at understanding what these systems actually do rather than treating them as a black box.</p>
+<span class="source">→ nishtahir.com</span>
 </article>
 
 </div>
@@ -131,7 +149,7 @@ h1{font-size:clamp(2rem,5vw,3.5rem);font-weight:700;line-height:1.1;margin-botto
 </section>
 
 <footer class="footer">
-<p>House of Vibes · A Cyber City Media Community</p>
+<p>House of Vibes · A Cyber City Media Community · <a href="https://houseofvibes.app">houseofvibes.app</a></p>
 </footer>
 </body>
 </html>

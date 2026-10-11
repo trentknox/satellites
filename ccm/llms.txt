@@ -7,7 +7,8 @@ Cyber City Media is a technology media company covering AI tools, market intelli
 - [Home](https://cybercitymedia.com) — Main site
 - [House of Vibes](https://houseofvibes.app) — AI builder community
 - [TechHype](https://techhype.app) — Technology news and market signals
-- [REZOUN](https://rezoun.com) — Streaming and replay technology
+- [REZOUN](https://rezoun.com) — Agentic business software
+- [Saasworks](https://saasworks.io) — SaaS tools and resources
 
 ## What We Cover
 
@@ -24,8 +25,11 @@ Cyber City Media is a technology media company covering AI tools, market intelli
 
 ## Latest Content
 
-- [Microsoft AI Releases Microsoft-Decision-1: A Qwen3.5-9B Decision-Scoring Model](https://www.marktechpost.com/2026/10/09/microsoft-ai-releases-microsoft-decision-1-a-qwen3-5-9b-decision-scoring-model/)
-- [Plan-and-Patch: Diffusion Language Models for Agentic Planning](https://arxiv.org/abs/2610.10786)
-- [Verification and Self-Improvement in Agentic AI: Foundations and Limits](https://arxiv.org/abs/2610.10611)
-- [StoreBench: A Live-Commerce Environment for Evaluating and Training Autonomous Operator Agents](https://arxiv.org/abs/2610.10942)
-- [Synthesis Through Simulation: Generating Coherent Enterprise Data via Scalable Agent-System Interaction](https://arxiv.org/abs/2610.10549)
+Each item lists the source's own publication date. All were published between 2026-10-08 and 2026-10-11.
+
+- [Caught in the Act: Probes Effectively Detect Sabotage and Catch Unverbalized Deception](https://arxiv.org/abs/2610.12445) — submitted 2026-10-08
+- [From Reactive Containment to Proactive Assurance: Lessons from OpenAI, Anthropic, and Google Agent Security Incidents](https://arxiv.org/abs/2610.12463) — submitted 2026-10-08
+- [Ecology of AI Agents: Collaboration Creates a Population Threshold for Takeoff](https://arxiv.org/abs/2610.12436) — submitted 2026-10-08
+- [On the estimation and validity of AI time horizons — a statistical look at the METR plot](https://arxiv.org/abs/2610.12466) — submitted 2026-10-08
+- [Predicting Alignment Generalization with Value Representations](https://arxiv.org/abs/2610.12410) — submitted 2026-10-08
+- [Can AI Agents Learn Their Way to the Top? Evaluating Heuristic Learning in a Long-Running Game Agent Competition](https://arxiv.org/abs/2610.12341) — submitted 2026-10-08

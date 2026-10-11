@@ -1,4 +1,4 @@
-.vercel
+# Vercel local state and secrets — never commit
 .env*
 .env.local
 .vercel
